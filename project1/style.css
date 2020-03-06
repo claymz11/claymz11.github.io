@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+header {
+    background-color: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+h1 {
+    color: darkseagreen;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500px;
+    background: lightsteelblue;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+header {
+    padding: 0.5%;
+}
+
+nav {
+    background-color: darkseagreen;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1px;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+}
+
+main {
+    padding: 5em;
+}
+
+footer, footer h3 {
+    background: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: white;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
