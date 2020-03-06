@@ -1,23 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 header {
-    background-image: url("/images/shenandoahbw.PNG");
-    background-repeat: no-repeat;
+    background-color: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 h1 {
-    color: midnightblue;
+    color: darkseagreen;
 }
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    background: darkseagreen;
-}
-
-main {
-    background-color: white;
-    box-shadow: 3px 3px;
+    font-weight: 500px;
+    background: lightsteelblue;
 }
 
 p {
@@ -29,7 +26,11 @@ header {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: darkseagreen;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1px;
 }
 
 nav li{
@@ -38,11 +39,14 @@ nav li{
 }
 
 main {
-    margin: 15%;
+    padding: 5em;
 }
 
 footer, footer h3 {
     background: midnightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     color: white;
 }
 
