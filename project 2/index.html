@@ -3,33 +3,66 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="The unofficial redesign of the Cinemassacre Productions Website">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Cinemassacre Home Page</title>
     </head>
     <body>
         <header>
-            <h1>CINEMASSACRE</h1>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            SHOWS</button>    
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-menu" href="#">AVGN</a>
-                <a class="dropdown-menu" href="#">Monster Madness</a>
-                <a class="dropdown-menu" href="#">Board James</a>
-                <a class="dropdown-menu" href="#">Movie Reviews A-Z</a>
-            </div>
-        </div>    
-        <nav>
+            <h1><a href="index.html">CINEMASSACRE</a></h1>    
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="background-color: red">
+        <div class="navbar-nav">
             <ul>
-                <li><a href="category-avgn">ORIGINAL FILMS</a></li>
-                <li><a href="shows.html">SHOWS</a></li>
-                <li><a href="merch.html">MERCH</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="originalfilms.html">ORIGINAL FILMS</a></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="category-horror.html">Horror</a>
+                    <a class="dropdown-item" href="category-comedy.html">Comedy</a>
+                    <a class="dropdown-item" href="category-animation.html">Animation</a>
+                    <a class="dropdown-item" href="category-favs.html">Favorites</a>
+                </div>
+            </div>
+                </li>
+                
+                <li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="shows.html">SHOWS</a></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="categrory-avgn.html">AVGN</a>
+                    <a class="dropdown-item" href="category-monstermadness.html">Monster Madness</a>
+                    <a class="dropdown-item" href="category-boardjames.html">Board James</a>
+                    <a class="dropdown-item" href="category-moviereviews.html">Movie Reviews A-Z</a>
+                </div>
+            </div>
+                </li>
+                
+                <li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="merch.html">MERCH</a></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="merch.html">T-Shirts</a>
+                    <a class="dropdown-item" href="merch.html">Blu-rays and DVDs</a>
+                </div>
+            </div>
+                </li>
+                
+                <li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link">SITE</a></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="about.html">About</a>
+                    <a class="dropdown-item" href="blog.html">Blog</a>
+                </div>
+            </div>
+                </li>
             </ul>
+            </div>
         </nav>
         </header>
         <section id="newavgn">
             <article id="avgnpopup">
-                <img src="" width="350px" alt="video link">
+                
                 <h2>AVGN</h2>
                 <a href="videoplayer.html">(Play)</a>
                 <p>(Pop-up): More Info</p>
@@ -64,6 +97,9 @@
                 </ul>
             </article>
         </section>
+        <script src="js/jquery.slim.mincopy.js"></script>
+        <script src="js/popper.mincopy.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
     <footer>
         <a href="https://www.facebook.com/Cinemassacre/">Facebook</a>
