@@ -1,25 +1,30 @@
 <!doctype HTML>
 <html>
     <head>
-        <meta lang="en">
         <meta charset="utf-8">
+        <meta name="description" content="Cinemassacre Merch">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <meta name="author" content="Clay Zimmerman">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
         <title>Merch | Cinemassacre Productions</title>
     </head>
     <body>
-        <header>
-            <h1><a href="index.html">CINEMASSACRE</a></h1>
-        <nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="background-color: red">
-        <div class="navbar-nav">
-            <ul>
+        <header>   
+        <nav class="navbar navbar-light navbar-expand-sm justify-content-end" style="background-color: black">
+        <a class="navbar-brand" href="index.html"><img src="images/cinemassacrelogo.png" width="500px"></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#togglenav" aria-controls="togglenav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="togglenav">
+        <div class="navbar-nav ml-auto">
+            <ul class="mt-5">
                 <li>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="originalfilms.html">ORIGINAL FILMS</a></button>
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="originalfilms.html">ORIGINAL FILMS</a></button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="category-horror.html">Horror</a>
-                    <a class="dropdown-item" href="category-comedy.html">Comedy</a>
-                    <a class="dropdown-item" href="category-animation.html">Animation</a>
                     <a class="dropdown-item" href="category-favs.html">Favorites</a>
                 </div>
             </div>
@@ -27,49 +32,144 @@
                 
                 <li>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="shows.html">SHOWS</a></button>
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="shows.html">SHOWS</a></button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="categrory-avgn.html">AVGN</a>
-                    <a class="dropdown-item" href="category-monstermadness.html">Monster Madness</a>
                     <a class="dropdown-item" href="category-boardjames.html">Board James</a>
-                    <a class="dropdown-item" href="category-moviereviews.html">Movie Reviews A-Z</a>
+                    <a class="dropdown-item" href="category-monstermadness.html">Monster Madness</a>
                 </div>
             </div>
                 </li>
                 
                 <li>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link" href="merch.html">MERCH</a></button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="merch.html">T-Shirts</a>
-                    <a class="dropdown-item" href="merch.html">Blu-rays and DVDs</a>
-                </div>
-            </div>
+                <button class="btn btn-danger" type="button"><a class="nav-item nav-link" href="merch.html">MERCH</a></button>
                 </li>
                 
                 <li>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="nav-item nav-link">SITE</a></button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="about.html">About</a>
-                    <a class="dropdown-item" href="blog.html">Blog</a>
-                </div>
-            </div>
+                <button class="btn btn-danger" type="button"><a class="nav-item nav-link" href="about.html">ABOUT</a></button>
                 </li>
             </ul>
             </div>
+            </div>
         </nav>
         </header>
-        <h2>MERCH</h2>
-        <p>(Photo carousel)</p>
+        <h1 class="ml-4 mt-2 text-light">MERCH</h1>
+        
+        <main>
+            <div style="margin-left: 35em" class="carousel slide" id="featured" data-ride="carousel">
+                <ol style="margin-right: 46em" class="carousel-indicators">
+                    <li data-target="#featured" data-slide-to="0" class="active"></li>
+                    <li data-target="#featured" data-slide-to="1"></li>
+                    <li data-target="#featured" data-slide-to="2"></li>
+                    <li data-target="#featured" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-50" src="images/cinemassacretee.jpg" alt="Cinemassacre T-Shirt">
+                    <div style="margin-right: 35em" class="carousel-caption d-none d-md-block">
+                        <p>Cinemassacre Shirt (Modern)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-50" src="images/avgnmovie.jpg" alt="AVGN: The Movie Blu-Ray">
+                    <div style="margin-right: 35em" class="carousel-caption d-none d-md-block">
+                        <p>AVGN: The Movie on Blu-Ray</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-50" src="images/monstermadnesstee.jpg" alt="Monster Madness T-Shirt">
+                    <div style="margin-right: 35em" class="carousel-caption d-none d-md-block">
+                        <p>Monster Madness (New Logo)</p>
+                    </div>
+                </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-50" src="images/avgnx.jpg" alt="AVGN X Collection">
+                    <div style="margin-right: 35em" class="carousel-caption d-none d-md-block">
+                        <p>AVGN X Collection</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="avgntee">
+                    <a href="https://www.amazon.com/Cinemassacre-Angry-Video-T-Shirt-Cranberry/dp/B01MSMIOY4/ref=sr_1_9?s=apparel&ie=UTF8&qid=1479475980&sr=1-9&nodeID=7147445011&keywords=cinemassacre&th=1" target="_blank"><img class="card-img-top img-fluid" src="images/avgntee.jpg" width="350px" alt="AVGN Tee"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">AVGN Shirt</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="monstermadnesstee">
+                    <a href="https://www.amazon.com/Cinemassacre-Monster-Madness-T-Shirt-Cranberry/dp/B01FN1YHZO?ie=UTF8&ref_=pe_2196150_146887310" target="_blank"><img class="card-img-top img-fluid" src="images/monstermadnesstee.jpg" width="350" alt="Monster Madness Tee"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">Monster Madness Shirt</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="cinemassacremodern">
+                    <a href="https://www.amazon.com/Womens-Cinemassacre-Modern-Chainsaw-T-Shirt/dp/B01MSJZKPP/ref=lp_14686715011_1_6?srs=14686715011&ie=UTF8&qid=1478874102&sr=8-6&th=1" target="_blank"><img class="card-img-top img-fluid" src="images/cinemassacretee.jpg" width="350px" alt="Modern Tee"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">Cinemassacre Shirt Modern</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="boardjamestee">
+                    <a href="https://www.amazon.com/dp/B01N0529TJ?th=1" target="_blank"><img class="card-img-top img-fluid" src="images/boardjamestee.jpg" width="350px" alt="Board James Tee"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">Board James Shirt</h3>
+                    </div>
+                </section>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="avgnx">
+                    <a href="https://www.amazon.com/Collection-Angry-Video-Episodes-1-100/dp/B018Y6BV04/ref=sr_1_8?m=A2X29IK6VB6ZHF&s=merchant-items&ie=UTF8&qid=1475295516&sr=1-8" target="_blank"><img class="card-img-top img-fluid" src="images/avgnx.jpg" width="350px" alt="AVGN X"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">AVGN X Collection</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="avgnx2">
+                    <a href="https://www.amazon.com/gp/product/B06WP92N19/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=screemedia-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B06WP92N19&linkId=ecfb9193cde9b3755d5f39cd1fecd8e4"><img class="card-img-top img-fluid" src="images/avgnx2.jpg" width="350" alt="AVGN X2"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">AVGN X2 Collection</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="avgnx3">
+                    <a href="https://www.amazon.com/dp/B0711VB1NR/ref=cm_sw_r_cp_dp_T2_-iltzb0KP7PKM" target="_blank"><img class="card-img-top img-fluid" src="images/avgnx3.jpg" width="350px" alt="AVGN X3"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">AVGN X3</h3>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col">
+                <section class="card mb-5 bg-danger" id="avgnmovie">
+                    <a href="https://www.amazon.com/Angry-Video-Game-Nerd-Movie/dp/B00PSLIQ9I/ref=sr_1_1?m=A2X29IK6VB6ZHF&s=merchant-items&ie=UTF8&qid=1475295516&sr=1-1" target="_blank"><img class="card-img-top img-fluid" src="images/avgnmovie.jpg" width="350px" alt="AVGN Movie"></a>
+                    <div class="card-body">
+                    <h3 class="card-title">Angry Video Game Nerd: The Movie</h3>
+                    </div>
+                </section>
+                    </div>
+                </div>
+        </main>
+        
         <script src="js/jquery.slim.mincopy.js"></script>
         <script src="js/popper.mincopy.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
     <footer>
-        <a href="https://www.facebook.com/Cinemassacre/">Facebook</a>
-        <a href="https://twitter.com/cinemassacre?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
-        <a href="https://www.youtube.com/user/JamesNintendoNerd">YouTube</a>
-        <p style="margin-left: 1.5em">2020 Cinemassacre Productions, LLC. All Rights Reserved</p>
+        <a href="https://www.facebook.com/Cinemassacre/"><img style="" src="images/redfacebookicon.png" width="50px" alt="Facebook"></a>
+        <a href="https://twitter.com/cinemassacre?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img style="" src="images/redtwittericon.png" width="50px" alt="Twitter"></a>
+        <a href="https://www.youtube.com/user/JamesNintendoNerd"><img style="" src="images/redyoutubeicon.png" width="50px" alt="YouTube"></a>
+        <p style="color: red; margin-left: 1.5em; margin-top: 2em;">2020 Cinemassacre Productions, LLC. All Rights Reserved</p>
     </footer>
 </html>
