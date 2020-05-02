@@ -1,0 +1,39 @@
+header {
+    padding: 0.5%;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+h1 {
+    color: black;
+    font-size:
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+navbar-toggler {
+}
+
+footer {
+    background-color: black;
+    padding-left: 20px;
+    padding-bottom: 65px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #35363a;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+iframe {
+    margin-left: 18em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
