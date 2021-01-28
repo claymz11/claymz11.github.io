@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+
+header {
+    text-align: center;
+    font-size: 25px;
+    background-color: rebeccapurple;
+    padding: 1em;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: rebeccapurple;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500px;
+    padding: 5em;
+}
+
+p {
+    line-height: 1.4em;
+    font-size: 20px;
+}
+
+main {
+    padding: 10em;
+    background-color: white;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section3 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 1em;
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.section5 {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    padding-left: 18em;
+}
+
+.section6 {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    padding-left: 18em;
+}
