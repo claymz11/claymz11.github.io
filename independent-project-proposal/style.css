@@ -21,7 +21,12 @@ img {
     padding-top: 2rem;
 }
 
-.images {
+.research {
     display: grid;
     grid-template-columns: 34.5% 34.5% 34.5%
+}
+
+.inspiration {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 40%
 }
